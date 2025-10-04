@@ -2,6 +2,6 @@
 export default function Title({name}) {
 
     return (
-        <div>{name}</div>
+        <div className="text-xl font-medium">{name}</div>
     )
 }
