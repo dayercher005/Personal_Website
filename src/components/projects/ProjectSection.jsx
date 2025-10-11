@@ -3,6 +3,8 @@ import Project from './Project.jsx'
 export default function ProjectSection(){
 
     return(
-        <div></div>
+        <div>
+            <Project name="" image=""></Project>
+        </div>
     )
 }
