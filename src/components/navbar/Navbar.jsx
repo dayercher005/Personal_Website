@@ -5,7 +5,7 @@ export default function Navbar() {
     const portfolioName = "Dayer Cher"
 
     return (
-        <nav className="flex justify-evenly p-5 sticky top-0">
+        <nav className="flex justify-evenly p-5 sticky top-0 backdrop-blur-sm">
 
             <h1 className="basis-64 font-bold text-3xl">{portfolioName}</h1>
 

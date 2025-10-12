@@ -1,6 +1,3 @@
-import GithubLogo from '/src/assets/github.svg'
-import LinkedinLogo from '/src/assets/linkedin.svg'
-
 export default function ProfileCardButtons (){
 
     const contactText = "Contact Me"
