@@ -12,7 +12,7 @@ export default function Skills() {
     const [activeIndex, setActiveIndex] = useState(0)
 
     return(
-        <div id="Skills" className="w-5/10 mx-auto pb-100">
+        <div id="Skills" className="w-5/10 mx-auto pb-60">
             <h1 className="inline-block text-3xl font-bold mb-15 border-b-5 border-b-blue-400">Skills</h1>
 
             <div>

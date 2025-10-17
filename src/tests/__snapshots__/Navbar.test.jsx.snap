@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar component > renders correct titles of Navbar 1`] = `
+<div>
+  <nav
+    class="flex justify-evenly p-5 sticky top-0 backdrop-blur-sm"
+  >
+    <h1
+      class="basis-64 font-bold text-3xl"
+    >
+      Dayer Cher
+    </h1>
+    <div
+      class="flex basis-128 justify-evenly rounded-2xl gap-4"
+    >
+      <a
+        class="hover:scale-105 flex items-center text-xl font-medium px-5 rounded-2xl hover:bg-gray-300 transition transition-300"
+        href="#Home"
+      >
+        Home
+      </a>
+      <a
+        class="hover:scale-105 flex items-center text-xl font-medium px-5 rounded-2xl hover:bg-gray-300 transition transition-300"
+        href="#About"
+      >
+        About
+      </a>
+      <a
+        class="hover:scale-105 flex items-center text-xl font-medium px-5 rounded-2xl hover:bg-gray-300 transition transition-300"
+        href="#Projects"
+      >
+        Projects
+      </a>
+      <a
+        class="hover:scale-105 flex items-center text-xl font-medium px-5 rounded-2xl hover:bg-gray-300 transition transition-300"
+        href="#Skills"
+      >
+        Skills
+      </a>
+      <a
+        class="hover:scale-105 flex items-center text-xl font-medium px-5 rounded-2xl hover:bg-gray-300 transition transition-300"
+        href="#Contact"
+      >
+        Contact
+      </a>
+    </div>
+  </nav>
+</div>
+`;
