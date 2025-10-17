@@ -1,8 +1,11 @@
-export default function Panel({title, isActive}) {
+export default function Panel({title, imageURL, isActive}) {
 
     return(
-        <div>
-            <button onClick={isActive} className="text-2xl rounded-2xl bg-slate-400 py-1 px-3 hover:bg-slate-500 hover:scale-105 transition">{title}</button>
+        <div className="flex">
+            <button onClick={isActive} className="flex text-2xl rounded-2xl bg-slate-400 py-2.5 px-4 hover:scale-105 transition gap-3 border-5 hover:shadow-2xl border-slate-400 hover:border-blue-400">
+                <img src={imageURL}></img>
+                {title}
+            </button>
         </div>
     )
 }

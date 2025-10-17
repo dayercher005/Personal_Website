@@ -18,9 +18,9 @@ export default function Projects(){
     const projectRestaurantPageLivePreview = "https://dayercher005.github.io/SushiWarrior/"
 
     return(
-        <div id="Projects" className="py-120">
+        <div id="Projects" className="w-5/10 py-100 mx-auto">
 
-            <h1 className="inline-block text-3xl font-bold ml-135 mb-15 border-b-5 border-b-blue-400">Projects</h1>
+            <h1 className="inline-block mb-15 text-3xl font-bold border-b-5 border-b-blue-400">Projects</h1>
 
             <div className="flex justify-center gap-x-15">
                 <Project name="Memory Card Game" image={MemoryCardGame} projectText={projectMemoryCardText} GithubLink={projectMemoryCardGithub} LivePreviewLink={projectMemoryCardLivePreview}></Project>

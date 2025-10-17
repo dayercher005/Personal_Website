@@ -34,36 +34,54 @@ export default function PanelContent({currentIndex}) {
     ]
 
     const ProgrammingLanguageIndividualContent = ProgrammingLanguages.map(language => 
-        <div className = "flex rounded-xl bg-gray-200 p-3 middle-align">
+        <div className = "flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition">
             <img className = "size-10" src={language.image}/>
-            <p className = "text-xl font-medium">{language.name}</p>
+            <p className = "text-xl font-medium my-auto">{language.name}</p>
         </div>
     )
 
-    const FrontendContent = Frontend.map(framework => 
-        <div className="flex">
-            <img src={framework.image}/>
-            <p>{framework.name}</p>
+    const FrontendIndividualContent = Frontend.map(framework => 
+        <div className="flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition">
+            <img className = "size-10" src={framework.image}/>
+            <p className = "text-xl font-medium my-auto">{framework.name}</p>
         </div>
     )
 
-    const BackendContent = Backend.map(framework => 
-        <div className="flex">
-            <img src={framework.image}></img>
-            <p>{framework.name}</p>
+    const BackendIndividualContent = Backend.map(framework => 
+        <div className="flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition">
+            <img className = "size-10" src={framework.image}></img>
+            <p className = "text-xl font-medium my-auto">{framework.name}</p>
         </div>
     )
 
-    const ToolsContent = Tools.map(tools => 
-        <div className="flex">
-            <img src={tools.image}></img>
-            <p>{tools.name}</p>
+    const ToolsIndividualContent = Tools.map(tools => 
+        <div className="flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition">
+            <img className = "size-10" src={tools.image}></img>
+            <p className = "text-xl font-medium my-auto">{tools.name}</p>
         </div>
     )
 
     const ProgrammingLanguageContent = (
-        <div className="grid grid-cols-3 w-1/3 mx-auto gap-15">
+        <div className="grid grid-cols-3 w-7/10 mx-auto gap-15">
             {ProgrammingLanguageIndividualContent}
+        </div>
+    )
+
+    const FrontendContent = (
+        <div className="grid grid-cols-3 w-7/10 mx-auto gap-15">
+            {FrontendIndividualContent}
+        </div>
+    )
+
+    const BackendContent = (
+        <div className="grid grid-cols-3 w-7/10 mx-auto gap-15">
+            {BackendIndividualContent}
+        </div>
+    )
+
+    const ToolsContent = (
+        <div className="grid grid-cols-3 w-7/10 mx-auto gap-15">
+            {ToolsIndividualContent}
         </div>
     )
 
