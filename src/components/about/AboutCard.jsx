@@ -8,7 +8,7 @@ export default function AboutCard() {
     return(
         <div>
             <Header>{aboutTitle}</Header>
-            <p className="font-medium text-lg max-w-3xl text-gray-500">{aboutContent}</p>
+            <p data-testid="aboutParagraph" className="font-medium text-lg max-w-3xl text-gray-500">{aboutContent}</p>
         </div>
     )
 }

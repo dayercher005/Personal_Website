@@ -8,7 +8,7 @@ describe("Navbar component", () => {
         expect(screen.getByRole("heading", {name: "Dayer Cher"}))
     })
 
-    it("renders correct titles of Navbar", () => {
+    it("renders entire Navbar component and correct titles of Navbar", () => {
         const { container } = render(<Navbar/>)
         expect(container).toMatchSnapshot()
     })
