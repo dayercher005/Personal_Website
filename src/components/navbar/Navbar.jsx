@@ -14,7 +14,6 @@ export default function Navbar() {
                 <Title name="About"></Title>
                 <Title name="Projects"></Title>
                 <Title name="Skills"></Title>
-                <Title name="Contact"></Title>
             </div>
         </nav>
     )
