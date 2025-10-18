@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PanelContent component under Skills component > should render respective Panel Content based on user Click 1`] = `<div />`;
