@@ -18,11 +18,11 @@ export default function Projects(){
     const projectRestaurantPageLivePreview = "https://dayercher005.github.io/SushiWarrior/"
 
     return(
-        <div id="Projects" className="w-5/10 py-60 mx-auto">
+        <div id="Projects" className="xl:w-5/10 lg:w-8/10 xl:min-w-300 lg:min-w-120 py-60 mx-auto">
 
             <h1 className="inline-block mb-15 text-3xl font-bold border-b-5 border-b-blue-400">Projects</h1>
 
-            <div className="flex justify-center gap-x-15">
+            <div className="lg:grid xl:grid-rows-3 xl:grid-cols-3 lg:grid-cols-2 lg:grid-rows-2 lg:justify-center block gap-x-15">
                 <Project name="Memory Card Game" image={MemoryCardGame} projectText={projectMemoryCardText} GithubLink={projectMemoryCardGithub} LivePreviewLink={projectMemoryCardLivePreview}></Project>
                 <Project name="CV-Application Generator" image={CvApplication} projectText={projectCvApplicationText} GithubLink={projectCvApplicationGithub} LivePreviewLink={projectCvApplicationLivePreview}></Project>
                 <Project name="Restaurant Homepage" image={RestaurantPage} projectText={projectRestaurantPageText} GithubLink={projectRestaurantPageGithub} LivePreviewLink={projectRestaurantPageLivePreview}></Project>
