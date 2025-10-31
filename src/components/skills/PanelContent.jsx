@@ -1,13 +1,13 @@
-import HTML from '/public/HTML.svg'
-import CSS from '/public/CSS.svg'
-import Javascript from '/public/Javascript.svg'
-import Python from '/public/Python.svg'
-import Tailwind from '/public/Tailwind.svg'
-import React from '/public/React.svg'
-import NodeJS from '/public/NodeJS.svg'
-import Webpack from '/public/Webpack.svg'
-import Vite from '/public/Vite.svg'
-import Git from '/public/Git.svg'
+import HTML from '/src/assets/HTML.svg'
+import CSS from '/src/assets/CSS.svg'
+import Javascript from '/src/assets/Javascript.svg'
+import Python from '/src/assets/Python.svg'
+import Tailwind from '/src/assets/Tailwind.svg'
+import React from '/src/assets/React.svg'
+import NodeJS from '/src/assets/NodeJS.svg'
+import Webpack from '/src/assets/Webpack.svg'
+import Vite from '/src/assets/Vite.svg'
+import Git from '/src/assets/Git.svg'
 
 export default function PanelContent({currentIndex}) {
 

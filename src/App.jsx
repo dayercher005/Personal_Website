@@ -15,7 +15,6 @@ function App() {
       <About></About>
       <Projects></Projects>
       <Skills></Skills>
-      <Contact></Contact>
     </>
   )
 }

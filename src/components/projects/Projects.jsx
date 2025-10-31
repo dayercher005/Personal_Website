@@ -1,7 +1,7 @@
 import Project from './Project.jsx'
-import MemoryCardGame from '/public/MemoryCardGame.png'
-import CvApplication from '/public/CvApplication.png'
-import RestaurantPage from '/public/RestaurantPage.png'
+import MemoryCardGame from '/src/assets/MemoryCardGame.png'
+import CvApplication from '/src/assets/CvApplication.png'
+import RestaurantPage from '/src/assets/RestaurantPage.png'
 
 export default function Projects(){
 

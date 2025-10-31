@@ -2,10 +2,10 @@ import Panel from './Panel.jsx'
 import PanelContent from './PanelContent.jsx'
 import { useState } from 'react'
 
-import ProgrammingLanguage from '/public/ProgrammingLanguage.svg'
-import Frontend from '/public/Frontend.svg'
-import Backend from '/public/Backend.svg'
-import Tools from '/public/Tools.svg'
+import ProgrammingLanguage from '/src/assets/ProgrammingLanguage.svg'
+import Frontend from '/src/assets/Frontend.svg'
+import Backend from '/src/assets/Backend.svg'
+import Tools from '/src/assets/Tools.svg'
 
 export default function Skills() {
 
