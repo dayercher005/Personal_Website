@@ -16,7 +16,7 @@ export default function Skills() {
             <h1 className="inline-block text-3xl font-bold mb-15 border-b-5 border-b-blue-400">Skills</h1>
 
             <div>
-                <div className="flex justify-evenly rounded-2xl bg-slate-200 py-5 mx-auto mb-5">
+                <div className="4xl:flex justify-evenly rounded-2xl bg-slate-200 py-5 mx-auto mb-5">
                     <Panel title="Programming Languages" imageURL={ProgrammingLanguage} isActive = {() => setActiveIndex(0)} ></Panel>
                     <Panel title="Frontend Development" imageURL={Frontend} isActive = {() => setActiveIndex(1)}></Panel>
                     <Panel title="Backend Development" imageURL={Backend} isActive = {() => setActiveIndex(2)}></Panel>
