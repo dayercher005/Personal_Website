@@ -8,9 +8,9 @@ export default function ProfileCard() {
 
     return (
         <div className="max-w-4xl">
-            <p className="text-blue-500 text-3xl font-medium">{greeting}</p>
-            <p className="text-5xl font-semibold my-2">{fullName}</p>
-            <p className="text-gray-500 text-xl font-medium my-5">{profileDescription}</p>
+            <p className="text-blue-500 text-3xl font-medium max-lg:text-center max-lg:mx-5">{greeting}</p>
+            <p className="text-5xl font-semibold my-2 max-lg:text-center max-lg:mx-5">{fullName}</p>
+            <p className="text-gray-500 text-xl font-medium my-5 max-lg:text-center max-lg:mx-5">{profileDescription}</p>
             <ProfileCardButtons></ProfileCardButtons>
         </div>
     )

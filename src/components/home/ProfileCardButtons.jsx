@@ -4,7 +4,7 @@ export default function ProfileCardButtons (){
     const projectText = "Projects"
     
     return (
-        <div className="flex align-center items-center gap-5">
+        <div className="flex align-center items-center gap-5 max-lg:justify-center max-lg:mx-5">
             <a href="mailto:dayerxr.cher@gmail.com" className="text-base font-medium rounded-xl border border-gray-400 px-2.5 py-1.5 h-fit hover:bg-blue-400 hover:text-white hover:border-blue-400 hover:scale-110 transition transition-300">{contactText}</a>
             <a href="#Projects" className="text-base font-medium rounded-xl border border-gray-400 px-2.5 py-1.5 h-fit hover:bg-blue-400 hover:text-white hover:border-blue-400 hover:scale-110 transition transition-300">{projectText}</a>
             <a target="_blank" href="https://github.com/dayercher005"><svg className="hover:scale-110 hover:bg-gray-900 transition transition-300 rounded-full p-2 hover:fill-white" xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 432 416">
