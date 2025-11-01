@@ -35,52 +35,52 @@ export default function PanelContent({currentIndex}) {
 
     const ProgrammingLanguageIndividualContent = ProgrammingLanguages.map(language => 
         <div className = "flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition">
-            <img className = "size-10" src={language.image}/>
-            <p className = "text-xl font-medium my-auto">{language.name}</p>
+            <img className = "xl:size-10 max-xl:size-7" src={language.image}/>
+            <p className = "xl:text-xl max-xl:text-md font-medium my-auto">{language.name}</p>
         </div>
     )
 
     const FrontendIndividualContent = Frontend.map(framework => 
         <div className="flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition">
-            <img className = "size-10" src={framework.image}/>
-            <p className = "text-xl font-medium my-auto">{framework.name}</p>
+            <img className = "xl:size-10 max-xl:size-7" src={framework.image}/>
+            <p className = "xl:text-xl max-xl:text-md font-medium my-auto">{framework.name}</p>
         </div>
     )
 
     const BackendIndividualContent = Backend.map(framework => 
         <div className="flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition">
-            <img className = "size-10" src={framework.image}></img>
-            <p className = "text-xl font-medium my-auto">{framework.name}</p>
+            <img className = "xl:size-10 max-xl:size-7" src={framework.image}></img>
+            <p className = "xl:text-xl max-xl:text-md font-medium my-auto">{framework.name}</p>
         </div>
     )
 
     const ToolsIndividualContent = Tools.map(tools => 
         <div className="flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition">
-            <img className = "size-10" src={tools.image}></img>
-            <p className = "text-xl font-medium my-auto">{tools.name}</p>
+            <img className = "xl:size-10 max-xl:size-7" src={tools.image}></img>
+            <p className = "xl:text-xl max-xl:text-md font-medium my-auto">{tools.name}</p>
         </div>
     )
 
     const ProgrammingLanguageContent = (
-        <div className="grid grid-cols-3 w-7/10 mx-auto gap-15">
+        <div className="grid 4xl:grid-cols-3 930px:grid-cols-2 4xl:w-7/10 xl:w-8/10 mx-auto max-xl:mx-4 xl:gap-15 max-xl:gap-5">
             {ProgrammingLanguageIndividualContent}
         </div>
     )
 
     const FrontendContent = (
-        <div className="grid grid-cols-3 w-7/10 mx-auto gap-15">
+        <div className="grid 4xl:grid-cols-3 930px:grid-cols-2 4xl:w-7/10 xl:w-8/10 xl:mx-auto max-xl:mx-4 xl:gap-15 max-xl:gap-5">
             {FrontendIndividualContent}
         </div>
     )
 
     const BackendContent = (
-        <div className="grid grid-cols-3 w-7/10 mx-auto gap-15">
+        <div className="grid 4xl:grid-cols-3 930px:grid-cols-2 4xl:w-7/10 xl:w-8/10 mx-auto max-xl:mx-4 xl:gap-15 max-xl:gap-5">
             {BackendIndividualContent}
         </div>
     )
 
     const ToolsContent = (
-        <div className="grid grid-cols-3 w-7/10 mx-auto gap-15">
+        <div className="grid 4xl:grid-cols-3 930px:grid-cols-2 4xl:w-7/10 xl:w-8/10 mx-auto max-xl:mx-4 xl:gap-15 max-xl:gap-5">
             {ToolsIndividualContent}
         </div>
     )
