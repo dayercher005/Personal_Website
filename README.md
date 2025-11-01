@@ -1,5 +1,6 @@
 ## Live Preview
-Live Preview Link: https://personal-website-xi-lac.vercel.app/
+<img width="2540" height="1227" alt="Screenshot 2025-11-01 at 11 22 30 PM" src="https://github.com/user-attachments/assets/28cedf88-4ac7-4a62-8175-1111238c3ea5" />
+Website URL: https://personal-website-xi-lac.vercel.app/
 
 ## How to Run
 
