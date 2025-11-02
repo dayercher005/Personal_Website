@@ -1,19 +1,23 @@
 ## Live Preview
+
 Live Preview Link: https://personal-website-xi-lac.vercel.app/
 
 ## How to Run
 
 1. Clone the repository:
+
 ```bash
-git clone 
+git clone
 ```
 
 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 3. Start Development Server:
+
 ```bash
 npm run dev
 ```
