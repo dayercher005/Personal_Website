@@ -3,12 +3,13 @@ import CSS from "/src/assets/CSS.svg";
 import Javascript from "/src/assets/Javascript.svg";
 import Python from "/src/assets/Python.svg";
 import Tailwind from "/src/assets/Tailwind.svg";
-import React from "/src/assets/React.svg";
+import ReactIcon from "/src/assets/React.svg";
 import NodeJS from "/src/assets/NodeJS.svg";
 import Webpack from "/src/assets/Webpack.svg";
 import Vite from "/src/assets/Vite.svg";
 import Git from "/src/assets/Git.svg";
 import React from "react";
+
 
 export default function PanelContent({ currentIndex }) {
   const ProgrammingLanguages = [
@@ -20,7 +21,7 @@ export default function PanelContent({ currentIndex }) {
 
   const Frontend = [
     { name: "Tailwind", image: Tailwind },
-    { name: "React", image: React },
+    { name: "React", image: ReactIcon },
   ];
 
   const Backend = [{ name: "NodeJS", image: NodeJS }];
