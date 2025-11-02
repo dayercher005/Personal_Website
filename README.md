@@ -1,5 +1,4 @@
 ## Live Preview
-
 Live Preview Link: https://personal-website-xi-lac.vercel.app/
 
 ## How to Run
