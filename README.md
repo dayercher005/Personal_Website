@@ -1,4 +1,5 @@
 ## Live Preview
+<img src="src/assets/LivePreview.png">
 Live Preview Link: https://personal-website-xi-lac.vercel.app/
 
 ## How to Run
