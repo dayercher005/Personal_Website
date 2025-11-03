@@ -3,7 +3,7 @@
 exports[`Individual Project component of Projects Section > renders Project component 1`] = `
 <div>
   <div
-    class="max-w-md h-130 border-gray-200 border rounded-2xl hover:shadow-2xl hover:scale-103 transition"
+    class="lg:w-auto w-7/10 border-gray-200 border rounded-2xl hover:shadow-2xl hover:scale-103 transition mx-auto my-20"
   >
     <img
       class="rounded-t-2xl"
@@ -15,7 +15,7 @@ exports[`Individual Project component of Projects Section > renders Project comp
       class="mx-6 mt-3 text-gray-500"
     />
     <div
-      class="ml-6 mt-5 gap-4 flex"
+      class="ml-6 mt-5 mb-4 mr-2 gap-4 flex"
     >
       <a
         class="group border-gray-300 hover:border-blue-400 hover:bg-blue-400 hover:text-white hover:scale-112 flex border py-0.75 px-2 rounded-2xl items-center font-medium transition transition-300"

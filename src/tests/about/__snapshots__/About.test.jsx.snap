@@ -6,14 +6,16 @@ exports[`About component > renders About Section 1`] = `
     class="flex justify-center py-60"
     id="About"
   >
-    <div>
+    <div
+      class="max-lg:text-center"
+    >
       <h2
         class="inline-block text-4xl font-bold my-2 border-b-blue-400 border-b-5"
       >
         About me
       </h2>
       <p
-        class="font-medium text-lg max-w-3xl text-gray-500"
+        class="max-lg:mx-10 mt-2.5 font-medium text-lg max-w-3xl text-gray-500"
         data-testid="aboutParagraph"
       >
         Currently pursuing a Computer Science Degree in Singapore. As a Computer Science student, I see learning as a continuous journey to evolve myself personally and professionally. Beyond the classroom, I\`m open to exploring opportunities to grow as a developer through hands-on projects and internships, where I can learn from real-world challenges and contribute to impactful software. 

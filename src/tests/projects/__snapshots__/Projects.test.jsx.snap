@@ -3,23 +3,23 @@
 exports[`Project Section Component > renders entire Project Section Component 1`] = `
 <div>
   <div
-    class="w-5/10 py-60 mx-auto"
+    class="xl:w-5/10 lg:w-8/10 min-w-65 xl:min-w-300 lg:min-w-120 max-lg:text-center py-60 mx-auto"
     id="Projects"
   >
     <h1
-      class="inline-block mb-15 text-3xl font-bold border-b-5 border-b-blue-400"
+      class="lg:inline-block mb-15 md:text-3xl max-lg:inline-block text-2xl font-bold border-b-5 border-b-blue-400"
     >
       Projects
     </h1>
     <div
-      class="flex justify-center gap-x-15"
+      class="lg:grid xl:grid-rows-1 xl:grid-cols-3 lg:grid-cols-2 lg:grid-rows-2 lg:justify-center block gap-x-15 lg:gap-y-15"
     >
       <div
-        class="max-w-md h-130 border-gray-200 border rounded-2xl hover:shadow-2xl hover:scale-103 transition"
+        class="lg:w-auto w-7/10 border-gray-200 border rounded-2xl hover:shadow-2xl hover:scale-103 transition mx-auto my-20"
       >
         <img
           class="rounded-t-2xl"
-          src="/public/MemoryCardGame.png"
+          src="/src/assets/MemoryCardGame.png"
         />
         <h1
           class="mt-7 ml-6 font-bold text-xl text-gray-700"
@@ -32,7 +32,7 @@ exports[`Project Section Component > renders entire Project Section Component 1`
           Interactive React-based memory card game where players gain points from clicking cards previously not clicked. Built to strengthen my understanding of React hooks and effects.
         </p>
         <div
-          class="ml-6 mt-5 gap-4 flex"
+          class="ml-6 mt-5 mb-4 mr-2 gap-4 flex"
         >
           <a
             class="group border-gray-300 hover:border-blue-400 hover:bg-blue-400 hover:text-white hover:scale-112 flex border py-0.75 px-2 rounded-2xl items-center font-medium transition transition-300"
@@ -74,11 +74,11 @@ exports[`Project Section Component > renders entire Project Section Component 1`
         </div>
       </div>
       <div
-        class="max-w-md h-130 border-gray-200 border rounded-2xl hover:shadow-2xl hover:scale-103 transition"
+        class="lg:w-auto w-7/10 border-gray-200 border rounded-2xl hover:shadow-2xl hover:scale-103 transition mx-auto my-20"
       >
         <img
           class="rounded-t-2xl"
-          src="/public/CvApplication.png"
+          src="/src/assets/CvApplication.png"
         />
         <h1
           class="mt-7 ml-6 font-bold text-xl text-gray-700"
@@ -91,7 +91,7 @@ exports[`Project Section Component > renders entire Project Section Component 1`
           React application that allows users to create and preview professional CVs dynamically. The tool features editable input fields for personal details, education and experience — reflected in a live preview panel. Built to practice basic React concepts and state.
         </p>
         <div
-          class="ml-6 mt-5 gap-4 flex"
+          class="ml-6 mt-5 mb-4 mr-2 gap-4 flex"
         >
           <a
             class="group border-gray-300 hover:border-blue-400 hover:bg-blue-400 hover:text-white hover:scale-112 flex border py-0.75 px-2 rounded-2xl items-center font-medium transition transition-300"
@@ -133,11 +133,11 @@ exports[`Project Section Component > renders entire Project Section Component 1`
         </div>
       </div>
       <div
-        class="max-w-md h-130 border-gray-200 border rounded-2xl hover:shadow-2xl hover:scale-103 transition"
+        class="lg:w-auto w-7/10 border-gray-200 border rounded-2xl hover:shadow-2xl hover:scale-103 transition mx-auto my-20"
       >
         <img
           class="rounded-t-2xl"
-          src="/public/RestaurantPage.png"
+          src="/src/assets/RestaurantPage.png"
         />
         <h1
           class="mt-7 ml-6 font-bold text-xl text-gray-700"
@@ -150,7 +150,7 @@ exports[`Project Section Component > renders entire Project Section Component 1`
           Fully responsive restaurant landing page built with ES6 JavaScript, HTML, and CSS. The page highlights the restaurant\`s atmosphere, menu, and vision with smooth navigation and interactive content dynamically rendered through JavaScript.
         </p>
         <div
-          class="ml-6 mt-5 gap-4 flex"
+          class="ml-6 mt-5 mb-4 mr-2 gap-4 flex"
         >
           <a
             class="group border-gray-300 hover:border-blue-400 hover:bg-blue-400 hover:text-white hover:scale-112 flex border py-0.75 px-2 rounded-2xl items-center font-medium transition transition-300"

@@ -8,7 +8,7 @@ import NodeJS from "/src/assets/NodeJS.svg";
 import Webpack from "/src/assets/Webpack.svg";
 import Vite from "/src/assets/Vite.svg";
 import Git from "/src/assets/Git.svg";
-import React from "react";
+import React from 'react';
 
 
 export default function PanelContent({ currentIndex }) {

@@ -3,61 +3,67 @@
 exports[`Skills Component > renders entire Skills component with its child components 1`] = `
 <div>
   <div
-    class="w-5/10 mx-auto pb-60"
+    class="xl:w-5/10 w-8/10 xl:min-w-280 mx-auto pb-60 max-lg:text-center"
     id="Skills"
   >
     <h1
-      class="inline-block text-3xl font-bold mb-15 border-b-5 border-b-blue-400"
+      class="inline-block text-3xl font-bold mb-15 border-b-5 border-b-blue-400 max-lg:"
     >
       Skills
     </h1>
-    <div>
+    <div
+      class="xl:block sm:flex max-xl:gap-4"
+    >
       <div
-        class="flex justify-evenly rounded-2xl bg-slate-200 py-5 mx-auto mb-5"
+        class="4xl:flex xl:grid xl:grid-cols-2 xl:grid-rows-2 xl:justify-evenly max-xl:justify-center max-sm:text-center rounded-2xl bg-slate-200 py-5 xl:mx-auto mb-5"
       >
         <div
-          class="flex"
+          class="flex justify-center my-3"
         >
           <button
-            class="flex text-2xl rounded-2xl bg-slate-400 py-2.5 px-4 hover:scale-105 transition gap-3 border-5 hover:shadow-2xl border-slate-400 hover:border-blue-400"
+            class="flex xl:text-xl max-xl:text-lg max-xl:m-1.5 sm:min-w-70 xl:min-w-auto rounded-2xl bg-slate-400 py-2.5 px-4 hover:scale-105 transition gap-3 border-5 hover:shadow-2xl border-slate-400 hover:border-blue-400"
           >
             <img
+              class="size-5 my-auto"
               src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill='%23000000'%20d='m.586%2012l4.95-4.95L6.95%208.464L3.414%2012l3.536%203.536l-1.414%201.414L.586%2012Zm8.201%208.728l4.486-17.94l1.94.485l-4.485%2017.94l-1.94-.485Zm8.263-5.192L20.586%2012L17.05%208.464l1.415-1.414l4.95%204.95l-4.95%204.95l-1.415-1.414Z'/%3e%3c/svg%3e"
             />
             Programming Languages
           </button>
         </div>
         <div
-          class="flex"
+          class="flex justify-center my-3"
         >
           <button
-            class="flex text-2xl rounded-2xl bg-slate-400 py-2.5 px-4 hover:scale-105 transition gap-3 border-5 hover:shadow-2xl border-slate-400 hover:border-blue-400"
+            class="flex xl:text-xl max-xl:text-lg max-xl:m-1.5 sm:min-w-70 xl:min-w-auto rounded-2xl bg-slate-400 py-2.5 px-4 hover:scale-105 transition gap-3 border-5 hover:shadow-2xl border-slate-400 hover:border-blue-400"
           >
             <img
+              class="size-5 my-auto"
               src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2048%2048'%3e%3cg%20fill='none'%3e%3crect%20width='40'%20height='32'%20x='4'%20y='8'%20stroke='%23000000'%20stroke-linejoin='round'%20stroke-width='4'%20rx='3'/%3e%3cpath%20stroke='%23000000'%20stroke-width='4'%20d='M4%2011a3%203%200%200%201%203-3h34a3%203%200%200%201%203%203v9H4v-9Z'/%3e%3ccircle%20r='2'%20fill='%23000000'%20transform='matrix(0%20-1%20-1%200%2010%2014)'/%3e%3ccircle%20r='2'%20fill='%23000000'%20transform='matrix(0%20-1%20-1%200%2016%2014)'/%3e%3c/g%3e%3c/svg%3e"
             />
             Frontend Development
           </button>
         </div>
         <div
-          class="flex"
+          class="flex justify-center my-3"
         >
           <button
-            class="flex text-2xl rounded-2xl bg-slate-400 py-2.5 px-4 hover:scale-105 transition gap-3 border-5 hover:shadow-2xl border-slate-400 hover:border-blue-400"
+            class="flex xl:text-xl max-xl:text-lg max-xl:m-1.5 sm:min-w-70 xl:min-w-auto rounded-2xl bg-slate-400 py-2.5 px-4 hover:scale-105 transition gap-3 border-5 hover:shadow-2xl border-slate-400 hover:border-blue-400"
           >
             <img
+              class="size-5 my-auto"
               src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill='%23000000'%20d='M15%2017a1%201%200%201%200%201%201a1%201%200%200%200-1-1Zm-6%200H6a1%201%200%200%200%200%202h3a1%201%200%200%200%200-2Zm9%200a1%201%200%201%200%201%201a1%201%200%200%200-1-1Zm-3-6a1%201%200%201%200%201%201a1%201%200%200%200-1-1Zm-6%200H6a1%201%200%200%200%200%202h3a1%201%200%200%200%200-2Zm9-6a1%201%200%201%200%201%201a1%201%200%200%200-1-1Zm0%206a1%201%200%201%200%201%201a1%201%200%200%200-1-1Zm4-6a3%203%200%200%200-3-3H5a3%203%200%200%200-3%203v2a3%203%200%200%200%20.78%202A3%203%200%200%200%202%2011v2a3%203%200%200%200%20.78%202A3%203%200%200%200%202%2017v2a3%203%200%200%200%203%203h14a3%203%200%200%200%203-3v-2a3%203%200%200%200-.78-2a3%203%200%200%200%20.78-2v-2a3%203%200%200%200-.78-2A3%203%200%200%200%2022%207Zm-2%2014a1%201%200%200%201-1%201H5a1%201%200%200%201-1-1v-2a1%201%200%200%201%201-1h14a1%201%200%200%201%201%201Zm0-6a1%201%200%200%201-1%201H5a1%201%200%200%201-1-1v-2a1%201%200%200%201%201-1h14a1%201%200%200%201%201%201Zm0-6a1%201%200%200%201-1%201H5a1%201%200%200%201-1-1V5a1%201%200%200%201%201-1h14a1%201%200%200%201%201%201Zm-5-2a1%201%200%201%200%201%201a1%201%200%200%200-1-1ZM9%205H6a1%201%200%200%200%200%202h3a1%201%200%200%200%200-2Z'/%3e%3c/svg%3e"
             />
             Backend Development
           </button>
         </div>
         <div
-          class="flex"
+          class="flex justify-center my-3"
         >
           <button
-            class="flex text-2xl rounded-2xl bg-slate-400 py-2.5 px-4 hover:scale-105 transition gap-3 border-5 hover:shadow-2xl border-slate-400 hover:border-blue-400"
+            class="flex xl:text-xl max-xl:text-lg max-xl:m-1.5 sm:min-w-70 xl:min-w-auto rounded-2xl bg-slate-400 py-2.5 px-4 hover:scale-105 transition gap-3 border-5 hover:shadow-2xl border-slate-400 hover:border-blue-400"
           >
             <img
+              class="size-5 my-auto"
               src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%20448%20512'%3e%3cpath%20fill='%23000000'%20d='M80%20104a24%2024%200%201%200%200-48a24%2024%200%201%200%200%2048zm80-24c0%2032.8-19.7%2061-48%2073.3v87.8c18.8-10.9%2040.7-17.1%2064-17.1h96c35.3%200%2064-28.7%2064-64v-6.7c-28.3-12.3-48-40.5-48-73.3c0-44.2%2035.8-80%2080-80s80%2035.8%2080%2080c0%2032.8-19.7%2061-48%2073.3v6.7c0%2070.7-57.3%20128-128%20128h-96c-35.3%200-64%2028.7-64%2064v6.7c28.3%2012.3%2048%2040.5%2048%2073.3c0%2044.2-35.8%2080-80%2080S0%20476.2%200%20432c0-32.8%2019.7-61%2048-73.3V153.3C19.7%20141%200%20112.8%200%2080C0%2035.8%2035.8%200%2080%200s80%2035.8%2080%2080zm232%200a24%2024%200%201%200-48%200a24%2024%200%201%200%2048%200zM80%20456a24%2024%200%201%200%200-48a24%2024%200%201%200%200%2048z'/%3e%3c/svg%3e"
             />
             Tools
@@ -65,20 +71,20 @@ exports[`Skills Component > renders entire Skills component with its child compo
         </div>
       </div>
       <div
-        class="bg-stone-300 py-20 mx-auto rounded-4xl min-h-100"
+        class="bg-stone-300 py-20 xl:mx-auto rounded-4xl min-h-100 flex-grow"
       >
         <div
-          class="grid grid-cols-3 w-7/10 mx-auto gap-15"
+          class="grid 4xl:grid-cols-3 930px:grid-cols-2 4xl:w-7/10 xl:w-8/10 mx-auto max-xl:mx-4 xl:gap-15 max-xl:gap-5"
         >
           <div
             class="flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition"
           >
             <img
-              class="size-10"
+              class="xl:size-10 max-xl:size-7"
               src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2032%2032'%3e%3cpath%20fill='%23e65100'%20d='m4%204l2%2022l10%202l10-2l2-22Zm19.72%207H11.28l.29%203h11.86l-.802%209.335L15.99%2025l-6.635-1.646L8.93%2019h3.02l.19%202l3.86.77l3.84-.77l.29-4H8.84L8%208h16Z'/%3e%3c/svg%3e"
             />
             <p
-              class="text-xl font-medium my-auto"
+              class="xl:text-xl max-xl:text-md font-medium my-auto"
             >
               HTML
             </p>
@@ -87,11 +93,11 @@ exports[`Skills Component > renders entire Skills component with its child compo
             class="flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition"
           >
             <img
-              class="size-10"
+              class="xl:size-10 max-xl:size-7"
               src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2032%2032'%3e%3cpath%20fill='%231572b6'%20d='M5.902%2027.201L3.656%202h24.688l-2.249%2025.197L15.985%2030z'/%3e%3cpath%20fill='%2333a9dc'%20d='m16%2027.858l8.17-2.265l1.922-21.532H16z'/%3e%3cpath%20fill='%23fff'%20d='M16%2013.191h4.09l.282-3.165H16V6.935h7.75l-.074.829l-.759%208.518H16z'/%3e%3cpath%20fill='%23ebebeb'%20d='m16.019%2021.218l-.014.004l-3.442-.93l-.22-2.465H9.24l.433%204.853l6.331%201.758l.015-.004z'/%3e%3cpath%20fill='%23fff'%20d='m19.827%2016.151l-.372%204.139l-3.447.93v3.216l6.336-1.756l.047-.522l.537-6.007z'/%3e%3cpath%20fill='%23ebebeb'%20d='M16.011%206.935v3.091H8.545l-.062-.695l-.141-1.567l-.074-.829zM16%2013.191v3.091h-3.399l-.062-.695l-.14-1.567l-.074-.829z'/%3e%3c/svg%3e"
             />
             <p
-              class="text-xl font-medium my-auto"
+              class="xl:text-xl max-xl:text-md font-medium my-auto"
             >
               CSS
             </p>
@@ -100,11 +106,11 @@ exports[`Skills Component > renders entire Skills component with its child compo
             class="flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition"
           >
             <img
-              class="size-10"
+              class="xl:size-10 max-xl:size-7"
               src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%20256%20256'%3e%3cg%20fill='none'%3e%3crect%20width='256'%20height='256'%20fill='%23F0DB4F'%20rx='60'/%3e%3cpath%20fill='%23323330'%20d='m67.312%20213.932l19.59-11.856c3.78%206.701%207.218%2012.371%2015.465%2012.371c7.905%200%2012.889-3.092%2012.889-15.12v-81.798h24.058v82.138c0%2024.917-14.606%2036.259-35.916%2036.259c-19.245%200-30.416-9.967-36.087-21.996m85.07-2.576l19.588-11.341c5.157%208.421%2011.859%2014.607%2023.715%2014.607c9.969%200%2016.325-4.984%2016.325-11.858c0-8.248-6.53-11.17-17.528-15.98l-6.013-2.579c-17.357-7.388-28.871-16.668-28.871-36.258c0-18.044%2013.748-31.792%2035.229-31.792c15.294%200%2026.292%205.328%2034.196%2019.247l-18.731%2012.029c-4.125-7.389-8.591-10.31-15.465-10.31c-7.046%200-11.514%204.468-11.514%2010.31c0%207.217%204.468%2010.139%2014.778%2014.608l6.014%202.577c20.449%208.765%2031.963%2017.699%2031.963%2037.804c0%2021.654-17.012%2033.51-39.867%2033.51c-22.339%200-36.774-10.654-43.819-24.574'/%3e%3c/g%3e%3c/svg%3e"
             />
             <p
-              class="text-xl font-medium my-auto"
+              class="xl:text-xl max-xl:text-md font-medium my-auto"
             >
               Javascript
             </p>
@@ -113,11 +119,11 @@ exports[`Skills Component > renders entire Skills component with its child compo
             class="flex rounded-xl bg-gray-200 p-3 middle-align gap-2 hover:scale-105 border-4 border-gray-200 hover:border-red-400 hover:shadow-2xl transition"
           >
             <img
-              class="size-10"
+              class="xl:size-10 max-xl:size-7"
               src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%20256%20255'%3e%3cdefs%3e%3clinearGradient%20id='logosPython0'%20x1='12.959%25'%20x2='79.639%25'%20y1='12.039%25'%20y2='78.201%25'%3e%3cstop%20offset='0%25'%20stop-color='%23387EB8'/%3e%3cstop%20offset='100%25'%20stop-color='%23366994'/%3e%3c/linearGradient%3e%3clinearGradient%20id='logosPython1'%20x1='19.128%25'%20x2='90.742%25'%20y1='20.579%25'%20y2='88.429%25'%3e%3cstop%20offset='0%25'%20stop-color='%23FFE052'/%3e%3cstop%20offset='100%25'%20stop-color='%23FFC331'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath%20fill='url(%23logosPython0)'%20d='M126.916.072c-64.832%200-60.784%2028.115-60.784%2028.115l.072%2029.128h61.868v8.745H41.631S.145%2061.355.145%20126.77c0%2065.417%2036.21%2063.097%2036.21%2063.097h21.61v-30.356s-1.165-36.21%2035.632-36.21h61.362s34.475.557%2034.475-33.319V33.97S194.67.072%20126.916.072ZM92.802%2019.66a11.12%2011.12%200%200%201%2011.13%2011.13a11.12%2011.12%200%200%201-11.13%2011.13a11.12%2011.12%200%200%201-11.13-11.13a11.12%2011.12%200%200%201%2011.13-11.13Z'/%3e%3cpath%20fill='url(%23logosPython1)'%20d='M128.757%20254.126c64.832%200%2060.784-28.115%2060.784-28.115l-.072-29.127H127.6v-8.745h86.441s41.486%204.705%2041.486-60.712c0-65.416-36.21-63.096-36.21-63.096h-21.61v30.355s1.165%2036.21-35.632%2036.21h-61.362s-34.475-.557-34.475%2033.32v56.013s-5.235%2033.897%2062.518%2033.897Zm34.114-19.586a11.12%2011.12%200%200%201-11.13-11.13a11.12%2011.12%200%200%201%2011.13-11.131a11.12%2011.12%200%200%201%2011.13%2011.13a11.12%2011.12%200%200%201-11.13%2011.13Z'/%3e%3c/svg%3e"
             />
             <p
-              class="text-xl font-medium my-auto"
+              class="xl:text-xl max-xl:text-md font-medium my-auto"
             >
               Python
             </p>
